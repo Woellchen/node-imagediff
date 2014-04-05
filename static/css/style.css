@@ -1,0 +1,14 @@
+body {
+    background: rgb(237, 237, 236);
+    margin-top: 50px;
+}
+
+#content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 30px 0px #000000;
+    box-shadow: 0 0 30px 0px #000000;
+}

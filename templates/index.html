@@ -4,9 +4,12 @@
 </head>
 <body>
 <div id="content">
-    <h1>{{ title }}</h1>
-
-    <div>TEST</div>
+    <h1>Compare Images</h1>
+    <form action="/compare" method="POST" enctype="multipart/form-data">
+        <label for="image1">Image 1:</label> <input type="file" id="image1" name="image1" /><br />
+        <label for="image2">Image 2:</label> <input type="file" id="image2" name="image2" /><br />
+        <input type="submit" value="Compare" />
+    </form>
 </div>
 </body>
 </html>
